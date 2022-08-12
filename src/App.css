@@ -1,0 +1,138 @@
+
+@media (max-width:330px){
+  body, html{
+      font-size: 23px !important;
+  }
+}
+@media (min-width:331px) and (max-width:399px){
+  body, html{
+      font-size: 23px ;
+  }
+}
+@media (min-width:400px){
+  body, html{
+      font-size: 22px !important;
+  }
+}
+
+@media (min-width:760px){
+  body, html{
+     max-width: 20rem;
+     margin: auto;
+  }
+}
+.App {
+  text-align: center;
+  background-color:#0f0d0d;
+  height: auto;
+  overflow: hidden;
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 60px;
+
+}
+
+.Fashions{
+  text-align: left;
+  color:#FFFFFF;
+  font-size: 14px;
+  position: relative;
+  left: 32px;
+  top: 32px;
+  font-weight: bold;
+}
+
+.Community{
+  color:#FFFFFF;
+  font-size:36px;
+  float:left;
+  margin:32px;
+  width: 54%;
+  margin-top:180px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+@media (min-width:400px){
+  .Community{
+    width:63%;
+  }
+}
+
+@media (min-width:500px){
+  .Community{
+    width:70%;
+  }
+}
+
+.Community_s{
+  float:left;
+}
+
+.Sns{
+  color:#FFFFFF;
+  font-size: 14px;
+  float: left;
+  position: relative;
+  top:120px;
+  left:32px;
+}
+
+.Sns > p:nth-child(2){
+  margin-right: 20px;
+}
+
+.Sns > p:nth-child(4){
+  margin-right: 11px;
+}
+
+.Sns > p:nth-child(5){
+  margin-right: 25px;
+}
+
+
+.img_src{
+  width:58px;
+  height: 100vh;
+  float: right;
+  background-size: cover;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+

@@ -1,0 +1,275 @@
+
+.header_button{
+    float:right;
+    background:#FFFFFF;
+    color:black;
+  }
+  
+  .header_allow{
+    margin-left:35px;
+  }
+  
+  .header_left_button{
+    float:left;
+    background:#FFFFFF;
+    color:black;
+  }
+
+ .App_main{
+    background-color: #0F0D0D;
+    
+ }
+.plan_header{
+    font-size: 16px;
+    text-align: center;
+    color:#FFFFFF;
+    font-family: 'Noto Sans KR';
+    background: #171717;
+    height: 56px;
+}
+
+.plan_header > img:nth-child(1){
+    float: left;
+    margin: 10px;
+}
+
+.plan_header > p:nth-child(2){
+
+    padding:15px;
+}
+
+.input_Line{
+    margin-bottom: 2%;
+    height: 48px;
+    
+    margin-top: 20px;
+    background: rgba(23, 23, 23, 1);
+ 
+}
+
+.input_Line > input:nth-child(1){
+    width: 272px;
+    height: 22px;
+    font-family: Noto Sans KR;
+    border: none;
+    color: rgba(118, 118, 118, 1);
+    font-size: 15px;
+    background: rgba(23, 23, 23, 1);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 40px;
+    margin-top: 13px;
+   
+}
+
+.image_div_plan{
+    width:4rem;
+    height:4.5rem;
+    margin-left:25%;
+
+}
+
+.images_plan{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.part_plan{
+    
+    width:150px;
+    height:196px;
+    background-color: #171717;
+    margin:2%;
+    width:46%;
+    float: left;
+}
+
+.part_plan > p:nth-child(2){
+    font-family: 'Noto Sans KR';
+    color:white;
+    font-size:14px;
+    margin-top:10px;
+
+}
+
+.part_plan > span:nth-child(3){
+    color:#999999;
+    font-size:12px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+
+.part_plan_keyword{
+    width:150px;
+    height:208px;
+    background-color: #171717;
+    margin:2%;
+    width:46%;
+    margin-bottom: 20%;
+    border-radius: 8%;
+    float: left;
+    background-size:cover;
+
+}
+
+.part_plan_fabric{
+    width:150px;
+    height:208px;
+    background-color: #171717;
+    margin:1%;
+    width:31%;
+    border-radius: 8%;
+    float: left;
+    background-size:cover;
+}
+
+.fabric_title{
+    font-family: 'Noto Sans KR';
+    position: relative;
+    top:90%;
+    background:#00000066;
+    color:#DBDBDB;
+    font-size: 12px;
+
+}
+
+.detail_image
+{
+   
+    height: 300px;
+    background-size: cover;
+    
+
+}
+
+.part_plan_detail{
+    height:350px;
+    margin-top:10%;
+    color:white;
+}
+
+.footer{
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    bottom:0px;
+    color: #171717;
+    background-color: #171717;
+}
+
+.footer_home{
+  width:25%;
+  height:56px;
+  float: left;
+}
+
+.footer_home_set{
+
+   
+    width: 22%;
+    position: relative;
+  
+}
+
+.footer_bar_set{
+
+   
+    width: 22%;
+    position: relative;
+   
+}
+
+.footer_bar{
+    width:25%;
+    height:56px;
+    float: left;
+}
+
+.footer_human{
+    width:25%;
+    height:56px;
+    float: left;
+}
+
+.footer_human_set{
+   
+   
+    width: 22%;
+    position: relative;
+    
+}
+
+.footer_more{
+    width:25%;
+    height:56px;
+    float: left;
+    
+}
+
+.footer_more_set{
+   
+
+    width: 22%;
+    position: relative;
+    
+}
+
+.detail_spec{
+    background-color: #171717;
+    color: white;
+    font-size:14px;
+    margin:20px;
+    position: relative;
+    bottom:30px;
+}
+
+
+.keyword_title{
+    color:white;
+    text-align: left;
+    position: relative;
+    top:100%;
+    margin:10px;
+    font-family: Noto Sans KR;
+    font-size:14px;
+   
+}
+
+.images_num{
+
+    float: right;
+    background-color: #2C2C2C;
+    border-radius: 30%;
+    font-size: 14px;
+    margin: 15px;
+    font-family: Noto Sans KR;
+    width:8%;
+    height: 8%;
+}
+
+.colors_name
+{
+    color:white;
+    border:1px solid;
+    border-radius: 30%;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.slick-dots li.slick-active button:before
+{
+    color:blue !important;
+}
+
+.slick-dots li button:before
+{
+    color:white !important;
+}
